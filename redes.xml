@@ -65,5 +65,35 @@
       <definicion>Transmiten datos mediante ondas electromagnéticas. Incluyen Wi-Fi (IEEE 802.11), Bluetooth, infrarrojos y comunicaciones por satélite. No requieren cableado físico pero son más vulnerables a interferencias.</definicion>
     </concepto>
   </seccion>
+<!-- PARTE ALEX: Dispositivos, protocolos y direccionamiento IP -->
 
+  <seccion id="4" titulo="Dispositivos de red">
+    <concepto>
+      <nombre>Hub</nombre>
+      <definicion>Dispositivo de capa 1 que retransmite señales a todos los puertos sin filtrado. No distingue destinatarios. En desuso por su ineficiencia.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>Switch</nombre>
+      <definicion>Dispositivo de capa 2 que conecta dispositivos en una LAN usando direcciones MAC. Envía datos solo al puerto de destino, mejorando el rendimiento.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>Router</nombre>
+      <definicion>Dispositivo de capa 3 que interconecta redes distintas usando direcciones IP. Determina la mejor ruta para cada paquete.</definicion>
+    </concepto>
+  </seccion>
+
+  <seccion id="5" titulo="Protocolos y direccionamiento IP">
+    <concepto>
+      <nombre>Protocolo</nombre>
+      <definicion>Conjunto de reglas que define cómo se comunican los dispositivos en una red. Ejemplos: HTTP, FTP, TCP, UDP, IP.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>Dirección IPv4</nombre>
+      <definicion>Identificador numérico de 32 bits dividido en 4 octetos (ej: 192.168.1.1). Permite identificar cada dispositivo en una red.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>Dirección IPv6</nombre>
+      <definicion>Identificador de 128 bits en hexadecimal. Creado para solucionar el agotamiento de IPv4. Ejemplo: 2001:0db8:85a3::8a2e:0370:7334.</definicion>
+    </concepto>
+  </seccion>
 </redes>
