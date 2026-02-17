@@ -2,4 +2,68 @@
 <!DOCTYPE redes SYSTEM "redes.dtd">
 <redes>
 
+  <!-- PARTE IKERR: Modelos de red, tipos y medios de transmisión -->
+
+  <seccion id="1" titulo="Definición y clasificación de redes">
+    <concepto>
+      <nombre>Red de computadoras</nombre>
+      <definicion>Conjunto de dispositivos hardware y software interconectados entre sí que permiten compartir recursos e información. La comunicación se realiza mediante protocolos estandarizados.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>LAN (Local Area Network)</nombre>
+      <definicion>Red de área local que conecta dispositivos en un espacio geográfico reducido como una oficina o edificio. Velocidades típicas de 100 Mbps a 10 Gbps. Usa tecnología Ethernet o Wi-Fi.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>MAN (Metropolitan Area Network)</nombre>
+      <definicion>Red de área metropolitana que abarca una ciudad o campus universitario. Cubre distancias de entre 5 y 50 km. Ejemplo: redes de televisión por cable.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>WAN (Wide Area Network)</nombre>
+      <definicion>Red de área amplia que conecta dispositivos a nivel nacional o mundial. Ejemplo: Internet. Usa infraestructuras de telecomunicaciones públicas o privadas.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>PAN (Personal Area Network)</nombre>
+      <definicion>Red de área personal con alcance de pocos metros alrededor de una persona. Ejemplo: conexión Bluetooth entre móvil y auriculares.</definicion>
+    </concepto>
+  </seccion>
+
+  <seccion id="2" titulo="Modelos de referencia">
+    <concepto>
+      <nombre>Modelo OSI</nombre>
+      <definicion>Modelo de referencia de 7 capas desarrollado por la ISO para estandarizar la comunicación entre sistemas. Las capas son: 1-Física, 2-Enlace de datos, 3-Red, 4-Transporte, 5-Sesión, 6-Presentación, 7-Aplicación.</definicion>
+      <capas>
+        <capa nivel="1" nombre="Física">Transmite bits crudos por el medio físico. Define voltajes, velocidades y conectores.</capa>
+        <capa nivel="2" nombre="Enlace de datos">Gestiona el acceso al medio y la detección de errores. Usa direcciones MAC.</capa>
+        <capa nivel="3" nombre="Red">Determina la ruta de los paquetes entre redes. Usa direcciones IP.</capa>
+        <capa nivel="4" nombre="Transporte">Garantiza la entrega fiable de datos extremo a extremo. Protocolos TCP y UDP.</capa>
+        <capa nivel="5" nombre="Sesión">Establece, gestiona y cierra sesiones entre aplicaciones.</capa>
+        <capa nivel="6" nombre="Presentación">Traduce, cifra y comprime los datos para la aplicación.</capa>
+        <capa nivel="7" nombre="Aplicación">Interfaz entre el usuario y la red. Protocolos HTTP, FTP, SMTP.</capa>
+      </capas>
+    </concepto>
+    <concepto>
+      <nombre>Modelo TCP/IP</nombre>
+      <definicion>Modelo práctico de 4 capas usado en Internet. Sus capas son: 1-Acceso a la red, 2-Internet, 3-Transporte, 4-Aplicación. Es la base del funcionamiento de Internet actual.</definicion>
+    </concepto>
+  </seccion>
+
+  <seccion id="3" titulo="Medios de transmisión">
+    <concepto>
+      <nombre>Par trenzado (UTP/STP)</nombre>
+      <definicion>Cable formado por pares de hilos de cobre trenzados. El UTP no tiene blindaje y el STP sí. Categorías: Cat5e (1 Gbps), Cat6 (10 Gbps). Es el medio más usado en redes LAN.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>Cable coaxial</nombre>
+      <definicion>Cable con conductor central de cobre rodeado de malla metálica. Mayor resistencia a interferencias que el par trenzado. Usado en redes de televisión por cable y conexiones de banda ancha.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>Fibra óptica</nombre>
+      <definicion>Transmite datos mediante pulsos de luz a través de filamentos de vidrio o plástico. Monomodo (largas distancias, hasta 100 km) y multimodo (distancias cortas). Velocidades de hasta 100 Gbps. Inmune a interferencias electromagnéticas.</definicion>
+    </concepto>
+    <concepto>
+      <nombre>Medios inalámbricos</nombre>
+      <definicion>Transmiten datos mediante ondas electromagnéticas. Incluyen Wi-Fi (IEEE 802.11), Bluetooth, infrarrojos y comunicaciones por satélite. No requieren cableado físico pero son más vulnerables a interferencias.</definicion>
+    </concepto>
+  </seccion>
+
 </redes>
