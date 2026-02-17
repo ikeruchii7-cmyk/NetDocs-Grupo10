@@ -1,0 +1,8 @@
+<!ELEMENT redes (seccion+)>
+<!ELEMENT seccion (concepto+)>
+<!ATTLIST seccion
+  id ID #REQUIRED
+  titulo CDATA #REQUIRED>
+<!ELEMENT concepto (nombre, definicion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT definicion (#PCDATA)>
