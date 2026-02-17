@@ -74,7 +74,7 @@
     </concepto>
     <concepto>
       <nombre>Switch</nombre>
-      <definicion>Dispositivo de capa 2 que conecta dispositivos en una LAN usando direcciones MAC. Envía datos solo al puerto de destino, mejorando el rendimiento.</definicion>
+      <definicion>Dispositivo de capa 2 que conecta dispositivos en una LAN usando direcciones MAC. Envía datos solo al puerto de destino, mejorando el rendimiento de la red respecto al hub.</definicion>
     </concepto>
     <concepto>
       <nombre>Router</nombre>
