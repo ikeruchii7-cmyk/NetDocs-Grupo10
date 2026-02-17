@@ -74,8 +74,7 @@
     </concepto>
     <concepto>
       <nombre>Switch</nombre>
-      <definicion>Dispositivo de capa 2 que conecta dispositivos en una LAN usando direcciones MAC. Envía datos solo al puerto de destino, mejorando el rendimiento.</definicion>
-    </concepto>
+      <definicion>El switch es un dispositivo de capa 1 que retransmite señales a todos los puertos.</definicion>    </concepto>
     <concepto>
       <nombre>Router</nombre>
       <definicion>Dispositivo de capa 3 que interconecta redes distintas usando direcciones IP. Determina la mejor ruta para cada paquete.</definicion>
